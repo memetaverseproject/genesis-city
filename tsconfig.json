@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "strict": true
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false,
+    "noLib": false,
+    "skipLibCheck": true
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.tsx"
+    "src/**/*.tsx",
+    "index.d.ts"
   ],
-  "extends": "@dcl/sdk/types/tsconfig.ecs7.json"
+  "extends": "@mtvproject/sdk/types/tsconfig.ecs7.json"
 }

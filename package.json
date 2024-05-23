@@ -1,18 +1,18 @@
 {
-  "name": "dcl-project",
+  "name": "mtv-project",
   "version": "1.0.0",
   "description": "SDK7 Template scene",
   "scripts": {
-    "start": "sdk-commands start",
-    "deploy": "sdk-commands deploy",
-    "build": "sdk-commands build",
-    "upgrade-sdk": "npm install --save-dev @dcl/sdk@latest",
-    "upgrade-sdk:next": "npm install --save-dev @dcl/sdk@next"
+    "start": "mtv-sdk-commands start",
+    "deploy": "mtv-sdk-commands deploy",
+    "build": "mtv-sdk-commands build",
+    "upgrade-sdk": "npm install --save-dev @mtvproject/sdk@latest",
+    "upgrade-sdk:next": "npm install --save-dev @mtvproject/sdk@next"
   },
   "devDependencies": {
-    "@dcl/asset-packs": "latest",
-    "@dcl/js-runtime": "7.3.25",
-    "@dcl/sdk": "^7.3.25"
+    "@mtvproject/js-runtime": "1.1.16",
+    "@mtvproject/sdk": "^1.1.16",
+    "@mtvproject/sdk-utils": "1.0.3"
   },
   "engines": {
     "node": ">=16.0.0",
