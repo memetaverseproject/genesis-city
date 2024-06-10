@@ -12,7 +12,8 @@
   "devDependencies": {
     "@mtvproject/js-runtime": "1.1.16",
     "@mtvproject/sdk": "^1.1.16",
-    "@mtvproject/sdk-utils": "1.0.3"
+    "@mtvproject/sdk-utils": "1.0.3",
+    "@mtvproject/explorer":"1.0.0-development-20240608014126.commit-dbc1b5a"
   },
   "engines": {
     "node": ">=16.0.0",

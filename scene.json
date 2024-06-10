@@ -2,15 +2,16 @@
   "ecs7": true,
   "runtimeVersion": "7",
   "display": {
-    "title": "SDK7 Scene Template",
+    "title": "Memetaverse City",
     "description": "template scene with SDK7",
     "navmapThumbnail": "images/scene-thumbnail.png",
     "favicon": "favicon_asset"
   },
+  "name": "Memetaverse City",
   "owner": "",
   "contact": {
     "name": "SDK",
-    "email": ""
+    "email": "contact@memetaverse.club"
   },
   "main": "bin/index.js",
   "tags": [],
@@ -39,9 +40,11 @@
       }
     }
   ],
+  "isPortableExperience": true,
   "requiredPermissions": [
     "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
-    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE",
+    "OPEN_EXTERNAL_LINK"
   ],
   "featureToggles": {},
   "scene": {
