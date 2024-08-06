@@ -3,17 +3,16 @@
   "version": "1.0.0",
   "description": "SDK7 Template scene",
   "scripts": {
-    "start": "mtv-sdk-commands start",
-    "deploy": "mtv-sdk-commands deploy",
-    "build": "mtv-sdk-commands build",
+    "start": "sdk-commands start",
+    "deploy": "sdk-commands deploy",
+    "build": "sdk-commands build",
     "upgrade-sdk": "npm install --save-dev @mtvproject/sdk@latest",
     "upgrade-sdk:next": "npm install --save-dev @mtvproject/sdk@next"
   },
   "devDependencies": {
-    "@mtvproject/js-runtime": "1.1.16",
-    "@mtvproject/sdk": "^1.1.16",
+    "@mtvproject/sdk": "^7.0.6",
     "@mtvproject/sdk-utils": "1.0.3",
-    "@mtvproject/explorer":"1.0.0-development-20240608014126.commit-dbc1b5a"
+    "@mtvproject/js-runtime": "7.0.6"
   },
   "engines": {
     "node": ">=16.0.0",

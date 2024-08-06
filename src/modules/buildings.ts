@@ -16,7 +16,6 @@ export function addBuildings() {
     })
   }
 
-  utils.triggers.enableDebugDraw(true)
   addCasinoTeleportTrigger()
   addConcertTeleportTrigger()
 }
