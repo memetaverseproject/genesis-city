@@ -1,7 +1,7 @@
 import { engine } from "@mtvproject/sdk/ecs";
 import { addBuildings } from "./modules/buildings";
 import { checkin } from "./modules/checkin";
-import { loadTreasurySlot } from "./modules/treasury";
+import { loadTreasurySlot } from "./modules/treasury-hunt/treasury";
 import { handleSpin } from "./modules/spin";
 
 export function main() {

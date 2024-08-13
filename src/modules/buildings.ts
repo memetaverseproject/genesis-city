@@ -1,11 +1,10 @@
 import { ColliderLayer, engine, GltfContainer, Transform } from '@mtvproject/sdk/ecs'
 import { Vector3 } from '@mtvproject/sdk/math'
 import * as utils from '@mtvproject/sdk-utils'
-import { openExternalUrl, teleportTo, triggerEmote } from "~system/RestrictedActions"
-import { movePlayerTo } from '~system/RestrictedActions'
+import { teleportTo } from "~system/RestrictedActions"
 
 export function addBuildings() {
-  for (let i = 1; i < 8; i++) {
+  for (let i = 1; i < 9; i++) {
     const street = engine.addEntity()
     GltfContainer.create(street, {
       src: `models/StreetPart0${i}.glb`,

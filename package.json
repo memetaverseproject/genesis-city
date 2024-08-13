@@ -10,9 +10,9 @@
     "upgrade-sdk:next": "npm install --save-dev @mtvproject/sdk@next"
   },
   "devDependencies": {
+    "@mtvproject/js-runtime": "7.0.6",
     "@mtvproject/sdk": "^7.0.6",
-    "@mtvproject/sdk-utils": "1.0.3",
-    "@mtvproject/js-runtime": "7.0.6"
+    "@mtvproject/sdk-utils": "1.0.3"
   },
   "engines": {
     "node": ">=16.0.0",
@@ -23,5 +23,8 @@
     "singleQuote": true,
     "printWidth": 120,
     "trailingComma": "none"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.2"
   }
 }
