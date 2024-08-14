@@ -2,6 +2,7 @@ import { ColliderLayer, engine, GltfContainer, Transform } from '@mtvproject/sdk
 import { Vector3 } from '@mtvproject/sdk/math'
 import * as utils from '@mtvproject/sdk-utils'
 import { teleportTo } from "~system/RestrictedActions"
+import { SpinComponent } from './spin'
 
 export function addBuildings() {
   for (let i = 1; i < 9; i++) {
@@ -58,8 +59,10 @@ function addConcertTeleportTrigger() {
   })
 
   Transform.create(button, {
-    position: Vector3.create(-3,5, -110)
+    position: Vector3.create(-3,12, -110)
   })
+
+  SpinComponent.create(button, { speed: 100, axis :"forward"})
 
   utils.triggers.addTrigger(
     button,
